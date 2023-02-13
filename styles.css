@@ -1,0 +1,115 @@
+* {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(30, 57, 144);
+    font-weight: bold;
+}
+
+
+.topnav {
+    background-color:rgb(30, 57, 144);
+    overflow: hidden;
+    position: absolute;
+}
+
+
+
+
+div {
+    width: 100%;
+    position: absolute;
+}
+
+
+.topnav a {
+    float: left;
+    color:  rgb(70, 200, 245);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+.topnav a:hover {
+    background-color:  rgb(70, 200, 245);
+    color: rgb(30, 57, 144);
+}
+
+
+.active {
+    width: 20%;
+}
+
+
+.calendar {
+    width: 20%;
+}
+
+
+.about {
+    width: 20%;
+}
+
+
+.topnav a.active {
+    background-color: rgb(70, 200, 245);
+    color: rgb(30, 57, 144);
+    width: 50%;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+td {
+    border: 2px solid rgb(30, 57, 144);
+    text-align: center;
+}
+
+
+.task {
+    display: inline-block;
+    padding: 3px;
+    border: 2px solid rgb(30, 57, 144);
+    border-radius: 5px;
+}
+
+td {
+    padding: 15px 18px;
+}
+
+.red {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.yellow {
+    background-color: rgba(255, 166, 0, 0.5)
+}
+
+.green {
+    background-color: rgba(0, 128, 0, 0.5)
+}
+
+span {
+    padding: 2px;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: rgb(210, 210, 240);
+}
+
+.footer {
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding: 3px;
+}
+
+link {
+    text-decoration: underline;
+}
