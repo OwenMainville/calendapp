@@ -1,0 +1,47 @@
+* {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(30, 57, 144);
+    font-weight: bold;
+}
+
+
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+input {
+    border-radius: 8px;  
+}
+
+
+form {
+    font-size: 18px;
+}
+
+
+.signup {
+    width: 60px;
+    height: 25px;
+    background-color: rgb(70, 200, 245);
+    margin: 0;
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    position: absolute;
+    left: 34%
+}
+
+
+.login {
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(70, 200, 245);
+}  
